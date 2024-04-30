@@ -8,4 +8,5 @@ This project was developed to be used with an RFID card reader (in our case-> Ol
 We have made an project presentation video in Finnish and can be found here: https://www.youtube.com/watch?v=VkHBmaDQrq8
 ____
 This project was made in 2024 during our 1st year of study during the 4th period at Oulu University of Applied Sciences. 
+
 Co-creators: https://github.com/doctorserious AND https://github.com/jgxjgx1
