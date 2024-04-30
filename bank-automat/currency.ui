@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>currency</class>
+ <widget class="QDialog" name="currency">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QPushButton" name="btn_exit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>930</y>
+     <width>311</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>24</pointsize>
+     <italic>false</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/icons/flags/hemmobutt.png);
+font: 900 24pt &quot;Comic Sans MS&quot;;
+border-style: solid;
+border-color: white;
+border-width: 2px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>Takaisin</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_eur">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>480</y>
+     <width>341</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>20</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/icons/flags/eu.png);
+border-style: solid;
+border-color: white;
+border-width: 5px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>EURO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_usd">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>480</y>
+     <width>341</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>20</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/icons/flags/us.png);
+border-style: solid;
+border-color: black;
+border-width: 5px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>USD</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_gbp">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>480</y>
+     <width>341</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>20</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/icons/flags/gb.png);
+border-style: solid;
+border-color: black;
+border-width: 5px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>GBP</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_sek">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>480</y>
+     <width>341</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>20</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/icons/flags/se.png);
+border-style: solid;
+border-color: black;
+border-width: 5px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>SEK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_yen">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>480</y>
+     <width>341</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>20</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/icons/flags/jp.png);
+border-style: solid;
+border-color: black;
+border-width: 5px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>YEN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="backroundPic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resourcefile.qrc">:/icons/flags/hemmocurrency.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::NoTextInteraction</set>
+   </property>
+  </widget>
+  <zorder>backroundPic</zorder>
+  <zorder>btn_exit</zorder>
+  <zorder>btn_eur</zorder>
+  <zorder>btn_usd</zorder>
+  <zorder>btn_gbp</zorder>
+  <zorder>btn_sek</zorder>
+  <zorder>btn_yen</zorder>
+ </widget>
+ <resources>
+  <include location="resourcefile.qrc"/>
+ </resources>
+ <connections/>
+</ui>

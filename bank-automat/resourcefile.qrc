@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>flags/eu.png</file>
+        <file>flags/fi.png</file>
+        <file>flags/gb.png</file>
+        <file>flags/jp.png</file>
+        <file>flags/se.png</file>
+        <file>flags/us.png</file>
+        <file>flags/hemmobg.png</file>
+        <file>flags/hemmocurrency.png</file>
+        <file>flags/hemmosplash.png</file>
+        <file>flags/hemmotemplate.png</file>
+        <file>flags/hemmotransactions.png</file>
+        <file>flags/hemmottakemoney.png</file>
+        <file>flags/hemmobutt.png</file>
+        <file>flags/hemmothankyou.png</file>
+        <file>flags/hemmowithdraw.png</file>
+    </qresource>
+    <qresource prefix="/sound">
+        <file>flags/click.mp3</file>
+        <file>flags/insert_card.wav</file>
+        <file>flags/pin_correct.wav</file>
+        <file>flags/pin_wrong.wav</file>
+        <file>flags/Pufferfish.mp3</file>
+        <file>flags/system_start.wav</file>
+        <file>flags/EUR.mp3</file>
+        <file>flags/GBP.mp3</file>
+        <file>flags/printings.mp3</file>
+        <file>flags/USD.mp3</file>
+        <file>flags/YEN.mp3</file>
+        <file>flags/scan_card.mp3</file>
+        <file>flags/SEK.mp3</file>
+    </qresource>
+</RCC>

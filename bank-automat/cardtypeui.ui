@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cardtypeui</class>
+ <widget class="QWidget" name="cardtypeui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="btn_credit">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>450</y>
+     <width>841</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/icons/flags/hemmobutt.png);
+font: 900 24pt &quot;Comic Sans MS&quot;;
+border-style: solid;
+border-color: white;
+border-width: 2px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>CREDIT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_debit">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>750</y>
+     <width>841</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/icons/flags/hemmobutt.png);
+font: 900 24pt &quot;Comic Sans MS&quot;;
+border-style: solid;
+border-color: white;
+border-width: 2px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>DEBIT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="backroundPic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resourcefile.qrc">:/icons/flags/hemmosplash.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::NoTextInteraction</set>
+   </property>
+  </widget>
+  <zorder>backroundPic</zorder>
+  <zorder>btn_credit</zorder>
+  <zorder>btn_debit</zorder>
+ </widget>
+ <resources>
+  <include location="resourcefile.qrc"/>
+ </resources>
+ <connections/>
+</ui>

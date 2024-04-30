@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QDialog" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="btn_withdraw">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>710</y>
+     <width>521</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>24</pointsize>
+     <italic>false</italic>
+
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/icons/flags/hemmobutt.png);
+font: 900 24pt &quot;Comic Sans MS&quot;;
+border-style: solid;
+border-color: white;
+border-width: 2px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>NOSTA RAHAA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_currency">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>900</y>
+     <width>521</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>24</pointsize>
+     <italic>false</italic>
+
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/icons/flags/hemmobutt.png);
+font: 900 24pt &quot;Comic Sans MS&quot;;
+border-style: solid;
+border-color: white;
+border-width: 2px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>MUUTA VALUUTTA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_logout">
+   <property name="geometry">
+    <rect>
+     <x>1390</x>
+     <y>900</y>
+     <width>521</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>24</pointsize>
+     <italic>false</italic>
+
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/icons/flags/hemmobutt.png);
+font: 900 24pt &quot;Comic Sans MS&quot;;
+border-style: solid;
+border-color: white;
+border-width: 2px;
+border-radius: 10px;
+color: #AB0003;</string>
+   </property>
+   <property name="text">
+    <string>KIRJAUDU ULOS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_transactions">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>520</y>
+     <width>521</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/icons/flags/hemmobutt.png);
+font: 900 24pt &quot;Comic Sans MS&quot;;
+border-style: solid;
+border-color: white;
+border-width: 2px;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string>TILITAPAHTUMAT JA SALDO</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="backroundPic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resourcefile.qrc">:/icons/flags/hemmosplash.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::NoTextInteraction</set>
+   </property>
+  </widget>
+  <zorder>backroundPic</zorder>
+  <zorder>btn_withdraw</zorder>
+  <zorder>btn_currency</zorder>
+  <zorder>btn_logout</zorder>
+  <zorder>btn_transactions</zorder>
+ </widget>
+ <resources>
+  <include location="resourcefile.qrc"/>
+ </resources>
+ <connections/>
+</ui>

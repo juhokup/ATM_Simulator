@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/flags">
+        <file>eu.png</file>
+        <file>fi.png</file>
+        <file>gb.png</file>
+        <file>jp.png</file>
+        <file>se.png</file>
+        <file>us.png</file>
+    </qresource>
+</RCC>

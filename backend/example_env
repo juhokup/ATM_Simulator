@@ -1,0 +1,13 @@
+# this file need to be named = .env
+# lines containing four stars (****) need to be replaced according to your needs and 
+SQL_SERVER='****'
+PORT=****
+MY_TOKEN = ****
+
+
+#These can be left commented, they are here just to remind the user
+
+#HOST="****"
+#DATABASE="****"
+#USER="****"
+#PASSWORD="****"
